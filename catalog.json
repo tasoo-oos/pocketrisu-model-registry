@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "c700ae47281cb2817f799b1dbccafc226ca2184e73e09cb03e4d8e1feb45cb9e",
+  "hash": "9ac242db73cb35ea3ca8a2f1595ee236ae94af4aa39a8b40063d351d6204ab9d",
   "baseProviders": {
     "anthropic-compatible": {
       "id": "anthropic-compatible",
@@ -5213,7 +5213,7 @@
     "anthropic:fable-5": {
       "id": "anthropic:fable-5",
       "version": 1,
-      "updatedAt": 1781025739404,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Fable 5",
       "displayNameI18n": {
         "ko": "Claude Fable 5"
@@ -5484,7 +5484,7 @@
     "anthropic:haiku-45": {
       "id": "anthropic:haiku-45",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Haiku 4.5",
       "displayNameI18n": {
         "ko": "Claude Haiku 4.5"
@@ -5809,7 +5809,7 @@
     "anthropic:opus-4": {
       "id": "anthropic:opus-4",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Opus 4",
       "displayNameI18n": {
         "ko": "Claude Opus 4"
@@ -6134,7 +6134,7 @@
     "anthropic:opus-41": {
       "id": "anthropic:opus-41",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Opus 4.1",
       "displayNameI18n": {
         "ko": "Claude Opus 4.1"
@@ -6459,7 +6459,7 @@
     "anthropic:opus-45": {
       "id": "anthropic:opus-45",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Opus 4.5",
       "displayNameI18n": {
         "ko": "Claude Opus 4.5"
@@ -6721,7 +6721,7 @@
     "anthropic:opus-46": {
       "id": "anthropic:opus-46",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Opus 4.6",
       "displayNameI18n": {
         "ko": "Claude Opus 4.6"
@@ -6983,7 +6983,7 @@
     "anthropic:opus-47": {
       "id": "anthropic:opus-47",
       "version": 2,
-      "updatedAt": 1780842360000,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Opus 4.7",
       "displayNameI18n": {
         "ko": "Claude Opus 4.7"
@@ -7249,7 +7249,7 @@
     "anthropic:opus-48": {
       "id": "anthropic:opus-48",
       "version": 2,
-      "updatedAt": 1780842360000,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Opus 4.8",
       "displayNameI18n": {
         "ko": "Claude Opus 4.8"
@@ -7515,7 +7515,7 @@
     "anthropic:sonnet-4": {
       "id": "anthropic:sonnet-4",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Sonnet 4",
       "displayNameI18n": {
         "ko": "Claude Sonnet 4"
@@ -7841,7 +7841,7 @@
     "anthropic:sonnet-45": {
       "id": "anthropic:sonnet-45",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Sonnet 4.5",
       "displayNameI18n": {
         "ko": "Claude Sonnet 4.5"
@@ -8167,7 +8167,7 @@
     "anthropic:sonnet-46": {
       "id": "anthropic:sonnet-46",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783333908576,
       "displayName": "Claude Sonnet 4.6",
       "displayNameI18n": {
         "ko": "Claude Sonnet 4.6"
@@ -26328,17 +26328,17 @@
     "wellspring": "5587ece284930f761cd40627e8d1d21b3e1850c0a8065111fa9814df626b4dfc"
   },
   "profileHashes": {
-    "anthropic:fable-5": "f36cb0ed38b2039da81b406e08abdd01acdf35c2c7206cecbe85563333c151cf",
-    "anthropic:haiku-45": "de5625e3bfdfb919a01772dac0d060022cb2d3ae54df20b0c9698d2904b80c77",
-    "anthropic:opus-4": "011f41a34151919b63c4dfc34bc965b0affb96b76542f63167518aff3f3517a6",
-    "anthropic:opus-41": "525c01b09d038b176578bb88610d7efccd28f568d840d0f5d6be2952aa67f42d",
-    "anthropic:opus-45": "49a7a1ccc59bb949b013d635058334d9fb5686228fa87d077b0a6c769ef0b819",
-    "anthropic:opus-46": "cd4f2357d5ae7b513845c850d4ff7afeb86dd9ac7611636e5acc88a65136c254",
-    "anthropic:opus-47": "109e01902d98ca5c34e70d008c29ff6d0ab839c0565b8b12a23ed7b23f30be85",
-    "anthropic:opus-48": "e288a6f0db8ee37294973843d4011edddd43f0ae6919e14f669c7321488acac6",
-    "anthropic:sonnet-4": "715e5331d14cd053af3a9c5cb461f2b35551df9557bf5a33e349f1f15efa1e57",
-    "anthropic:sonnet-45": "f654d16320c37d1886fac0d7614214371f009f7459e2b50814bd07dc898f34d4",
-    "anthropic:sonnet-46": "baf37f2541494f7e36be4368313e51252e128d67d7f16819f93e310dd2005910",
+    "anthropic:fable-5": "1fe18b9c7201243900e1226d335055e08534afc032fc57e97b82231e02247441",
+    "anthropic:haiku-45": "c2e8046d996a967c35994b0398965d1adb09a038858b4e14cc644fde604b9fc9",
+    "anthropic:opus-4": "b0b6cd8d9e6c579fbedd739a86d596549e3bb85aed94704edaa531278077fe94",
+    "anthropic:opus-41": "665e00503fe68e0242a524b255c4d836def061fd9ce458be72cd11e63fc9f28e",
+    "anthropic:opus-45": "cb4a387afc75fd694e58236e1313b98451dc9e08cac88a1fa0493e8805a41433",
+    "anthropic:opus-46": "c4a432b3da35be2ca6ca0aaca188ddf5169d875d39ddf66fe1a9f8c9028cf539",
+    "anthropic:opus-47": "cb67dd1d528396cd19a6e7b037339cb5e313e755d94daa6aaffc1f4f81573e47",
+    "anthropic:opus-48": "9a565d768a8d8b692817c0bc6aaf9a7fb205513ee1f295a5a351453015a24f2f",
+    "anthropic:sonnet-4": "8d22202a3a6b60a05ac3ac0593bbeffd5c3522ea6d954f121603360c81ac7762",
+    "anthropic:sonnet-45": "3cdae4b42c2707631b8ecb618b6c5f45273a147c41782ed900015b9a3e10f3d8",
+    "anthropic:sonnet-46": "1e0ae690d98cf755d39472444eab0d2f665034698ada3640dcb8f3cf531eb186",
     "anthropic-compatible:custom-noauth": "0ee287bb68d8f1f1c22c167c6ac3f13645e0681f1e55d90f96a945cd47fd087f",
     "anthropic-compatible:custom": "435a340b16c350035921832e92d61f464a9f731c9344dbc39dcc9bcdec70fffd",
     "bedrock:openai-compatible": "e4317519ab87ec59c35173a7d4c242f0753ac9ffaf0ed54aad626cb6bb57fed1",
