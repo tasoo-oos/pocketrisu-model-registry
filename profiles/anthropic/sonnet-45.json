@@ -1,7 +1,7 @@
 {
   "id": "anthropic:sonnet-45",
   "version": 1,
-  "updatedAt": 1780592606461,
+  "updatedAt": 1783599773137,
   "displayName": "Claude Sonnet 4.5",
   "displayNameI18n": {
     "ko": "Claude Sonnet 4.5"
@@ -301,6 +301,7 @@
     "reasoning",
     "vision",
     "tools",
+    "cache",
     "json"
   ],
   "sourceUrls": [

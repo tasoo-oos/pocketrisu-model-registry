@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "d71ab37d4d88434f85091ebf8e8bda69b04d84a97d09bb1ef10cddc786e4d336",
+  "hash": "ef90f00a3c2e2408c432df652b1d333a0b466c3331ad7f934b27ae8bd91a12f1",
   "baseProviders": {
     "anthropic-compatible": {
       "id": "anthropic-compatible",
@@ -310,6 +310,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -5213,7 +5214,7 @@
     "anthropic:fable-5": {
       "id": "anthropic:fable-5",
       "version": 1,
-      "updatedAt": 1781025739404,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Fable 5",
       "displayNameI18n": {
         "ko": "Claude Fable 5"
@@ -5459,6 +5460,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -5480,7 +5482,7 @@
     "anthropic:haiku-45": {
       "id": "anthropic:haiku-45",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Haiku 4.5",
       "displayNameI18n": {
         "ko": "Claude Haiku 4.5"
@@ -5779,6 +5781,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -5801,7 +5804,7 @@
     "anthropic:opus-4": {
       "id": "anthropic:opus-4",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Opus 4",
       "displayNameI18n": {
         "ko": "Claude Opus 4"
@@ -6100,6 +6103,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -6122,7 +6126,7 @@
     "anthropic:opus-41": {
       "id": "anthropic:opus-41",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Opus 4.1",
       "displayNameI18n": {
         "ko": "Claude Opus 4.1"
@@ -6421,6 +6425,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -6443,7 +6448,7 @@
     "anthropic:opus-45": {
       "id": "anthropic:opus-45",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Opus 4.5",
       "displayNameI18n": {
         "ko": "Claude Opus 4.5"
@@ -6679,6 +6684,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -6701,7 +6707,7 @@
     "anthropic:opus-46": {
       "id": "anthropic:opus-46",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Opus 4.6",
       "displayNameI18n": {
         "ko": "Claude Opus 4.6"
@@ -6938,6 +6944,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -6959,7 +6966,7 @@
     "anthropic:opus-47": {
       "id": "anthropic:opus-47",
       "version": 2,
-      "updatedAt": 1780842360000,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Opus 4.7",
       "displayNameI18n": {
         "ko": "Claude Opus 4.7"
@@ -7200,6 +7207,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -7221,7 +7229,7 @@
     "anthropic:opus-48": {
       "id": "anthropic:opus-48",
       "version": 2,
-      "updatedAt": 1780842360000,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Opus 4.8",
       "displayNameI18n": {
         "ko": "Claude Opus 4.8"
@@ -7462,6 +7470,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -7483,7 +7492,7 @@
     "anthropic:sonnet-4": {
       "id": "anthropic:sonnet-4",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Sonnet 4",
       "displayNameI18n": {
         "ko": "Claude Sonnet 4"
@@ -7783,6 +7792,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -7805,7 +7815,7 @@
     "anthropic:sonnet-45": {
       "id": "anthropic:sonnet-45",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Sonnet 4.5",
       "displayNameI18n": {
         "ko": "Claude Sonnet 4.5"
@@ -8105,6 +8115,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -8127,7 +8138,7 @@
     "anthropic:sonnet-46": {
       "id": "anthropic:sonnet-46",
       "version": 1,
-      "updatedAt": 1780592606461,
+      "updatedAt": 1783599773137,
       "displayName": "Claude Sonnet 4.6",
       "displayNameI18n": {
         "ko": "Claude Sonnet 4.6"
@@ -8364,6 +8375,7 @@
         "reasoning",
         "vision",
         "tools",
+        "cache",
         "json"
       ],
       "sourceUrls": [
@@ -26264,7 +26276,7 @@
   },
   "baseProviderHashes": {
     "anthropic-compatible": "5b3411980241df9e6bccaf8b6c1455a6e4524ff97229198cebfce8fe609835a9",
-    "anthropic": "52268f92498a8d181d78098077eb1f34ca38e47457515bfeeac25963a60d77c2",
+    "anthropic": "3cc3a126fc9b5cfba00c3b5652274ce03a4c3886b14b7bb9e3b328de623a5519",
     "bedrock-anthropic": "0826795caa6bc49f5f5627c286741916b050ea0208e083ca6c27971bdf48abe5",
     "bedrock": "30d85601a597e964b00f09c8972b4a7654e28afe32891a49039830b1f1bc4b2a",
     "deepinfra": "c75425c339fe1b390df34aad812b776a8199729821038a03ba1b8f8ecbda5b3e",
@@ -26284,17 +26296,17 @@
     "wellspring": "5587ece284930f761cd40627e8d1d21b3e1850c0a8065111fa9814df626b4dfc"
   },
   "profileHashes": {
-    "anthropic:fable-5": "a7ce6977aaec9dcc34332b1274ea1d30aad7e6cd2c76f8fb614b569245235f76",
-    "anthropic:haiku-45": "235d37e91f1b7ae6cad183946a013d27ef9843d035560ff2f996d21bb0593d65",
-    "anthropic:opus-4": "9d507298c931bed0e624a9f46564787741dfdd176c618e147e7b710d854a3dee",
-    "anthropic:opus-41": "a7a68ca2240f421dc55ea743e76e6c2faa972beae61df60073f19a8db3f53273",
-    "anthropic:opus-45": "711f77ea23800bdb7a21c3728e02164c75a0e0eea6a0db41fd277152d7a2a791",
-    "anthropic:opus-46": "780591b9a74699ec67b1740d01ceea90dbaaad13dbb12115d4d2f9fb03b921c7",
-    "anthropic:opus-47": "582476366d25b70060f4b7e332b830c485ee03837ab85b4529ccad5186cc1b5e",
-    "anthropic:opus-48": "d68949028518b236fab1974c05a079f46514ef951149536f9003c5cefb67082e",
-    "anthropic:sonnet-4": "02e291c45b9dcd443e764c3df396c0b6ee1994a1dc9a63f64df8c41d84e55b34",
-    "anthropic:sonnet-45": "14d18d63f3aa94f01b888d6c1b2fe3390f909653581e28a1f9505dc8f1d1b449",
-    "anthropic:sonnet-46": "619d57b44a4144274c892436461f8de3441ea33b622c1caac9fce7d797bb3c65",
+    "anthropic:fable-5": "edf58a2f85f656095989c2ea033f2170846019a5d4276adfcb19a5cece50f0ea",
+    "anthropic:haiku-45": "9364c5c8dd6296e216c3a1ad1915b296705c56db25f7bcd772e893e579903220",
+    "anthropic:opus-4": "7eafd9b362e6748ca8b04e9fe21913bab7319267421f6c3bbc2387a2ab01964e",
+    "anthropic:opus-41": "43cb2e94b8535ff2dae2d448fda0c663c31da57fb30fcd40cf468fed3337ac10",
+    "anthropic:opus-45": "3a6c616dc0e002ed19d5735bd70e351f03d059539550438ac07e3e5dd9e48cf8",
+    "anthropic:opus-46": "10cbb5003eeaa9c1b84a3a72b549a7699e12921420194591995ab4475ed11f55",
+    "anthropic:opus-47": "6d6ece04cbf2831f24f58ef28049e7a9f573de0d98cdb54e08be2ef76c7ed0d8",
+    "anthropic:opus-48": "60db7af0cd4f53a8252f198b3be60d9b2dc6691bb968b4e358b3d96c020c44bc",
+    "anthropic:sonnet-4": "189ff8632419a20558a49c396a0d29af06d80c11a3bb77268f85abe69fd6d88f",
+    "anthropic:sonnet-45": "83821ab0767fd1c8a660a2f3475bbed7570877621afed8fe16611e6358d99a4e",
+    "anthropic:sonnet-46": "c1c20d6362ccc42c45aa635611e5c04f7035dee075e5d7e3364bded77f1a19f8",
     "anthropic-compatible:custom-noauth": "0ee287bb68d8f1f1c22c167c6ac3f13645e0681f1e55d90f96a945cd47fd087f",
     "anthropic-compatible:custom": "435a340b16c350035921832e92d61f464a9f731c9344dbc39dcc9bcdec70fffd",
     "bedrock:openai-compatible": "e4317519ab87ec59c35173a7d4c242f0753ac9ffaf0ed54aad626cb6bb57fed1",

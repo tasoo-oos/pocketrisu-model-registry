@@ -1,7 +1,7 @@
 {
   "id": "anthropic:haiku-45",
   "version": 1,
-  "updatedAt": 1780592606461,
+  "updatedAt": 1783599773137,
   "displayName": "Claude Haiku 4.5",
   "displayNameI18n": {
     "ko": "Claude Haiku 4.5"
@@ -300,6 +300,7 @@
     "reasoning",
     "vision",
     "tools",
+    "cache",
     "json"
   ],
   "sourceUrls": [

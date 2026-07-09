@@ -57,6 +57,7 @@
     "reasoning",
     "vision",
     "tools",
+    "cache",
     "json"
   ],
   "sourceUrls": [

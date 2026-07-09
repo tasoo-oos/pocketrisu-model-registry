@@ -1,7 +1,7 @@
 {
   "id": "anthropic:opus-45",
   "version": 1,
-  "updatedAt": 1780592606461,
+  "updatedAt": 1783599773137,
   "displayName": "Claude Opus 4.5",
   "displayNameI18n": {
     "ko": "Claude Opus 4.5"
@@ -237,6 +237,7 @@
     "reasoning",
     "vision",
     "tools",
+    "cache",
     "json"
   ],
   "sourceUrls": [
