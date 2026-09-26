@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "2aacc50e95cfd20c44bd7073de3ad83940b2e0f2d59cc2ea1eda641ca31a52cf",
+  "hash": "9d9889705f61e9f66f2d223e79cd56366c3151ad4977f8170052755c4e06cce8",
   "baseProviders": [
     {
       "id": "anthropic-compatible",
@@ -117,17 +117,17 @@
     {
       "id": "anthropic:fable-5",
       "url": "profiles/anthropic/fable-5.json",
-      "hash": "733cfc7360718cfa38f1cc9ff2156176016e83b7ef8fc04aa28da49caecd51c6"
+      "hash": "5746d743cfeed6ea97b9a13c23d11f7170b66976dc9a665c2d228e9603bb6430"
     },
     {
       "id": "anthropic:fable-51",
       "url": "profiles/anthropic/fable-51.json",
-      "hash": "29a63ae5f389739f46cda43af6a613518cb9b42d156216696602b30ba047d216"
+      "hash": "31d48ff6da9192ebba99a90fa008753760438728c15a3a04d4e9932b1860d03b"
     },
     {
       "id": "anthropic:haiku-45",
       "url": "profiles/anthropic/haiku-45.json",
-      "hash": "235d37e91f1b7ae6cad183946a013d27ef9843d035560ff2f996d21bb0593d65"
+      "hash": "de5625e3bfdfb919a01772dac0d060022cb2d3ae54df20b0c9698d2904b80c77"
     },
     {
       "id": "anthropic:haiku-55",
@@ -137,62 +137,62 @@
     {
       "id": "anthropic:opus-4",
       "url": "profiles/anthropic/opus-4.json",
-      "hash": "82feacbf39d74714820155752987153371f99d6318621a1896440699e4bf329d"
+      "hash": "8b978f9f2a1269616a098c757da87a5aa488b9982cb26ff3f04c3bcf4fadd5e8"
     },
     {
       "id": "anthropic:opus-41",
       "url": "profiles/anthropic/opus-41.json",
-      "hash": "b0c3086804bcbd2b918d11641caed9f9ac02cbbac1248a46897ead68115a708c"
+      "hash": "38130c906796a068d9018e2c940418e18ddf3bc09495dd187024556499168439"
     },
     {
       "id": "anthropic:opus-45",
       "url": "profiles/anthropic/opus-45.json",
-      "hash": "f063e4694cb520292008543e8e9289e6d302d9a7aed01c7641a7380c546c7aa7"
+      "hash": "fbdffdc0ee5966c6d50246cca726ddee73fd942816e0d75574d2814802d496ce"
     },
     {
       "id": "anthropic:opus-46",
       "url": "profiles/anthropic/opus-46.json",
-      "hash": "bc365f4691f8437253603d5d899bd8df859e692505449d1c19fa01f13e24e42b"
+      "hash": "b0a3443bf5a18f9a59091ba5fd9e5bda00e72d9965c4a6bb94265804d527d8d7"
     },
     {
       "id": "anthropic:opus-47",
       "url": "profiles/anthropic/opus-47.json",
-      "hash": "552303b47dfcde7490a66ffc3fd7dd04271dda694d0c8f6e23c5b18fc2bcbaef"
+      "hash": "818cd17b4f67797affcced369c0715aaaccd5d12431a6a52c640615e0bcea90b"
     },
     {
       "id": "anthropic:opus-48",
       "url": "profiles/anthropic/opus-48.json",
-      "hash": "932c0578592bc8951eb44588f0f6df1732e4b697755c104532ef8af150401994"
+      "hash": "3d743929e2285973382c63159eee65de10966e72ead371371d0ad7f21ff1a660"
     },
     {
       "id": "anthropic:opus-5",
       "url": "profiles/anthropic/opus-5.json",
-      "hash": "1c20200b31d8b5c91e51e252ea1229768288b0d0ae45623992a163243adc39a3"
+      "hash": "380d66c77564f1d4fb821f25e8dbad19bbcd66d7439da5334c342dda7d0f4ec4"
     },
     {
       "id": "anthropic:opus-55",
       "url": "profiles/anthropic/opus-55.json",
-      "hash": "979067e52774e5468a0d39d76207eab877bbb636c832b473b47d94ff93f829a0"
+      "hash": "fc03fae0c743de9193f9bd3827837c3ea4650baf80a0eb2edaa1bf95f94503d1"
     },
     {
       "id": "anthropic:sonnet-4",
       "url": "profiles/anthropic/sonnet-4.json",
-      "hash": "f5cecf916be7c435b754528b370e30b90ce491d8f069b011b7b4037151f2072d"
+      "hash": "0c02cc2e2abd916dfd47151fdb6b3389cea938fea9da2f609b5d25635d469981"
     },
     {
       "id": "anthropic:sonnet-45",
       "url": "profiles/anthropic/sonnet-45.json",
-      "hash": "14d18d63f3aa94f01b888d6c1b2fe3390f909653581e28a1f9505dc8f1d1b449"
+      "hash": "f654d16320c37d1886fac0d7614214371f009f7459e2b50814bd07dc898f34d4"
     },
     {
       "id": "anthropic:sonnet-46",
       "url": "profiles/anthropic/sonnet-46.json",
-      "hash": "619d57b44a4144274c892436461f8de3441ea33b622c1caac9fce7d797bb3c65"
+      "hash": "baf37f2541494f7e36be4368313e51252e128d67d7f16819f93e310dd2005910"
     },
     {
       "id": "anthropic:sonnet-5",
       "url": "profiles/anthropic/sonnet-5.json",
-      "hash": "aa0b0eb7416b8db99cce758d778cb41a49c005e4ce65112add34c4a6c00bb8ea"
+      "hash": "ea29cc5c5820cd722bde54c8d6544446cf6842cc5c0d3c1d2d21289ea6c31b52"
     },
     {
       "id": "anthropic:sonnet-55",
