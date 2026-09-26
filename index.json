@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "53d3157b127a50f8d79651538052fba39384429ba5167575bca7180fe23de863",
+  "hash": "7eae8a419ec12ba141df4de07e4e6c207877f650b17ddc336026315cca7607c6",
   "baseProviders": [
     {
       "id": "anthropic-compatible",
@@ -117,77 +117,77 @@
     {
       "id": "anthropic:fable-5",
       "url": "profiles/anthropic/fable-5.json",
-      "hash": "a7ce6977aaec9dcc34332b1274ea1d30aad7e6cd2c76f8fb614b569245235f76"
+      "hash": "f36cb0ed38b2039da81b406e08abdd01acdf35c2c7206cecbe85563333c151cf"
     },
     {
       "id": "anthropic:fable-51",
       "url": "profiles/anthropic/fable-51.json",
-      "hash": "78756c3350e420116f704c3bf30298986c636db8bb6b989aef5f3c7282fec2b0"
+      "hash": "9b54e03f8d6bdbafecb42280b72326870ecab34d7378259ae279b63babcfcd7d"
     },
     {
       "id": "anthropic:haiku-45",
       "url": "profiles/anthropic/haiku-45.json",
-      "hash": "235d37e91f1b7ae6cad183946a013d27ef9843d035560ff2f996d21bb0593d65"
+      "hash": "de5625e3bfdfb919a01772dac0d060022cb2d3ae54df20b0c9698d2904b80c77"
     },
     {
       "id": "anthropic:opus-4",
       "url": "profiles/anthropic/opus-4.json",
-      "hash": "82feacbf39d74714820155752987153371f99d6318621a1896440699e4bf329d"
+      "hash": "8b978f9f2a1269616a098c757da87a5aa488b9982cb26ff3f04c3bcf4fadd5e8"
     },
     {
       "id": "anthropic:opus-41",
       "url": "profiles/anthropic/opus-41.json",
-      "hash": "b0c3086804bcbd2b918d11641caed9f9ac02cbbac1248a46897ead68115a708c"
+      "hash": "38130c906796a068d9018e2c940418e18ddf3bc09495dd187024556499168439"
     },
     {
       "id": "anthropic:opus-45",
       "url": "profiles/anthropic/opus-45.json",
-      "hash": "711f77ea23800bdb7a21c3728e02164c75a0e0eea6a0db41fd277152d7a2a791"
+      "hash": "49a7a1ccc59bb949b013d635058334d9fb5686228fa87d077b0a6c769ef0b819"
     },
     {
       "id": "anthropic:opus-46",
       "url": "profiles/anthropic/opus-46.json",
-      "hash": "bc365f4691f8437253603d5d899bd8df859e692505449d1c19fa01f13e24e42b"
+      "hash": "b0a3443bf5a18f9a59091ba5fd9e5bda00e72d9965c4a6bb94265804d527d8d7"
     },
     {
       "id": "anthropic:opus-47",
       "url": "profiles/anthropic/opus-47.json",
-      "hash": "e23472d98d1ca92acd50789deb809dd9e89655027a8d5f589640f7db56758e71"
+      "hash": "71b4923c0205acbfd743b26e600bd2bb93b58b2009fc5e4b4a08d499414502b3"
     },
     {
       "id": "anthropic:opus-48",
       "url": "profiles/anthropic/opus-48.json",
-      "hash": "d68949028518b236fab1974c05a079f46514ef951149536f9003c5cefb67082e"
+      "hash": "e288a6f0db8ee37294973843d4011edddd43f0ae6919e14f669c7321488acac6"
     },
     {
       "id": "anthropic:opus-5",
       "url": "profiles/anthropic/opus-5.json",
-      "hash": "dd968dad6d09991f3745e82eebac7efbe6ff6c79a556c67f22cb29c0fdf0f135"
+      "hash": "5e2da85fccf89b7ba0524f7874f9c4068c338e76f52634a96a137a433c0827e1"
     },
     {
       "id": "anthropic:opus-55",
       "url": "profiles/anthropic/opus-55.json",
-      "hash": "cbd1f3079ca1ace252876a6d71bc343a090db3051f0fc8054fdd4cac53dae307"
+      "hash": "51a7b5174ea23184cd9ad7e5ae6d426bb5f74dc1b7f22bc922ff19cfba08f413"
     },
     {
       "id": "anthropic:sonnet-4",
       "url": "profiles/anthropic/sonnet-4.json",
-      "hash": "f5cecf916be7c435b754528b370e30b90ce491d8f069b011b7b4037151f2072d"
+      "hash": "0c02cc2e2abd916dfd47151fdb6b3389cea938fea9da2f609b5d25635d469981"
     },
     {
       "id": "anthropic:sonnet-45",
       "url": "profiles/anthropic/sonnet-45.json",
-      "hash": "14d18d63f3aa94f01b888d6c1b2fe3390f909653581e28a1f9505dc8f1d1b449"
+      "hash": "f654d16320c37d1886fac0d7614214371f009f7459e2b50814bd07dc898f34d4"
     },
     {
       "id": "anthropic:sonnet-46",
       "url": "profiles/anthropic/sonnet-46.json",
-      "hash": "619d57b44a4144274c892436461f8de3441ea33b622c1caac9fce7d797bb3c65"
+      "hash": "baf37f2541494f7e36be4368313e51252e128d67d7f16819f93e310dd2005910"
     },
     {
       "id": "anthropic:sonnet-5",
       "url": "profiles/anthropic/sonnet-5.json",
-      "hash": "afccde0f027967581c45b2d138922f8d8bd46e756dee0e9f07ff10ab2d6c6843"
+      "hash": "deff597b27aad5ef37e1358e34b7830f8f7145ccbce1940103e8765f654ee32b"
     },
     {
       "id": "anthropic-compatible:custom-noauth",
