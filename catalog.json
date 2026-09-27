@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "a82efc677177adac8b083946213f0a43411615b262b630ece82300e95ea40197",
+  "hash": "8f7c536110f785ceca2c1a36dcc087469ba339f37a5ae42919319cbf8bfe214b",
   "baseProviders": {
     "anthropic-compatible": {
       "id": "anthropic-compatible",
@@ -5930,6 +5930,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -6197,6 +6201,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -6485,6 +6493,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -6806,6 +6818,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -7127,6 +7143,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -7420,6 +7440,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -7679,6 +7703,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -7941,6 +7969,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -8203,6 +8235,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -8465,6 +8501,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -8732,6 +8772,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -9022,6 +9066,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -9344,6 +9392,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -9635,6 +9687,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -9897,6 +9953,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -41484,21 +41544,21 @@
     "wellspring": "5587ece284930f761cd40627e8d1d21b3e1850c0a8065111fa9814df626b4dfc"
   },
   "profileHashes": {
-    "anthropic:fable-5": "a7ce6977aaec9dcc34332b1274ea1d30aad7e6cd2c76f8fb614b569245235f76",
-    "anthropic:fable-51": "78756c3350e420116f704c3bf30298986c636db8bb6b989aef5f3c7282fec2b0",
-    "anthropic:haiku-45": "235d37e91f1b7ae6cad183946a013d27ef9843d035560ff2f996d21bb0593d65",
-    "anthropic:opus-4": "82feacbf39d74714820155752987153371f99d6318621a1896440699e4bf329d",
-    "anthropic:opus-41": "b0c3086804bcbd2b918d11641caed9f9ac02cbbac1248a46897ead68115a708c",
-    "anthropic:opus-45": "711f77ea23800bdb7a21c3728e02164c75a0e0eea6a0db41fd277152d7a2a791",
-    "anthropic:opus-46": "bc365f4691f8437253603d5d899bd8df859e692505449d1c19fa01f13e24e42b",
-    "anthropic:opus-47": "e23472d98d1ca92acd50789deb809dd9e89655027a8d5f589640f7db56758e71",
-    "anthropic:opus-48": "d68949028518b236fab1974c05a079f46514ef951149536f9003c5cefb67082e",
-    "anthropic:opus-5": "dd968dad6d09991f3745e82eebac7efbe6ff6c79a556c67f22cb29c0fdf0f135",
-    "anthropic:opus-55": "cbd1f3079ca1ace252876a6d71bc343a090db3051f0fc8054fdd4cac53dae307",
-    "anthropic:sonnet-4": "f5cecf916be7c435b754528b370e30b90ce491d8f069b011b7b4037151f2072d",
-    "anthropic:sonnet-45": "14d18d63f3aa94f01b888d6c1b2fe3390f909653581e28a1f9505dc8f1d1b449",
-    "anthropic:sonnet-46": "619d57b44a4144274c892436461f8de3441ea33b622c1caac9fce7d797bb3c65",
-    "anthropic:sonnet-5": "afccde0f027967581c45b2d138922f8d8bd46e756dee0e9f07ff10ab2d6c6843",
+    "anthropic:fable-5": "f36cb0ed38b2039da81b406e08abdd01acdf35c2c7206cecbe85563333c151cf",
+    "anthropic:fable-51": "9b54e03f8d6bdbafecb42280b72326870ecab34d7378259ae279b63babcfcd7d",
+    "anthropic:haiku-45": "de5625e3bfdfb919a01772dac0d060022cb2d3ae54df20b0c9698d2904b80c77",
+    "anthropic:opus-4": "8b978f9f2a1269616a098c757da87a5aa488b9982cb26ff3f04c3bcf4fadd5e8",
+    "anthropic:opus-41": "38130c906796a068d9018e2c940418e18ddf3bc09495dd187024556499168439",
+    "anthropic:opus-45": "49a7a1ccc59bb949b013d635058334d9fb5686228fa87d077b0a6c769ef0b819",
+    "anthropic:opus-46": "b0a3443bf5a18f9a59091ba5fd9e5bda00e72d9965c4a6bb94265804d527d8d7",
+    "anthropic:opus-47": "71b4923c0205acbfd743b26e600bd2bb93b58b2009fc5e4b4a08d499414502b3",
+    "anthropic:opus-48": "e288a6f0db8ee37294973843d4011edddd43f0ae6919e14f669c7321488acac6",
+    "anthropic:opus-5": "5e2da85fccf89b7ba0524f7874f9c4068c338e76f52634a96a137a433c0827e1",
+    "anthropic:opus-55": "51a7b5174ea23184cd9ad7e5ae6d426bb5f74dc1b7f22bc922ff19cfba08f413",
+    "anthropic:sonnet-4": "0c02cc2e2abd916dfd47151fdb6b3389cea938fea9da2f609b5d25635d469981",
+    "anthropic:sonnet-45": "f654d16320c37d1886fac0d7614214371f009f7459e2b50814bd07dc898f34d4",
+    "anthropic:sonnet-46": "baf37f2541494f7e36be4368313e51252e128d67d7f16819f93e310dd2005910",
+    "anthropic:sonnet-5": "deff597b27aad5ef37e1358e34b7830f8f7145ccbce1940103e8765f654ee32b",
     "anthropic-compatible:custom-noauth": "442d5e18cab8b7a3fabf4388f482fbb44fa08d2b690ab5dc72fa66ae1a260e1f",
     "anthropic-compatible:custom": "3d5981a2e25bd9102c03e9c6d4fa2a90c672817b0eb80c08f50aeac0d17a01f9",
     "bedrock:openai-compatible": "e4317519ab87ec59c35173a7d4c242f0753ac9ffaf0ed54aad626cb6bb57fed1",
