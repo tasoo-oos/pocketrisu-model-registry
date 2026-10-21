@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "5352dbc02f895b208b1d605b1c18855519627648d34b385f5e786c88eb4a96d7",
+  "hash": "2aacc50e95cfd20c44bd7073de3ad83940b2e0f2d59cc2ea1eda641ca31a52cf",
   "baseProviders": {
     "anthropic-compatible": {
       "id": "anthropic-compatible",
@@ -5820,8 +5820,8 @@
   "profiles": {
     "anthropic:fable-5": {
       "id": "anthropic:fable-5",
-      "version": 1,
-      "updatedAt": 1781025739404,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Fable 5",
       "displayNameI18n": {
         "ko": "Claude Fable 5"
@@ -5939,6 +5939,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -6047,6 +6071,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -6072,7 +6103,8 @@
       "sourceUrls": [
         "https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5",
         "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "https://platform.claude.com/docs/en/build-with-claude/effort"
+        "https://platform.claude.com/docs/en/build-with-claude/effort",
+        "https://platform.claude.com/docs/en/build-with-claude/thinking"
       ],
       "limits": {
         "known": true,
@@ -6087,8 +6119,8 @@
     },
     "anthropic:fable-51": {
       "id": "anthropic:fable-51",
-      "version": 1,
-      "updatedAt": 1790149202175,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Fable 5.1",
       "displayNameI18n": {
         "ko": "Claude Fable 5.1"
@@ -6206,6 +6238,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -6314,6 +6370,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -6339,7 +6402,8 @@
       "sourceUrls": [
         "https://platform.claude.com/docs/en/models/fable-5-1/overview",
         "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "https://platform.claude.com/docs/en/build-with-claude/effort"
+        "https://platform.claude.com/docs/en/build-with-claude/effort",
+        "https://platform.claude.com/docs/en/build-with-claude/thinking"
       ],
       "limits": {
         "known": true,
@@ -6675,8 +6739,8 @@
     },
     "anthropic:haiku-55": {
       "id": "anthropic:haiku-55",
-      "version": 1,
-      "updatedAt": 1791538923489,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Haiku 5.5",
       "displayNameI18n": {
         "ko": "Claude Haiku 5.5"
@@ -6789,6 +6853,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -6895,6 +6983,13 @@
             "visibility": "basic",
             "group": "reasoning",
             "order": 2
+          },
+          {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
           },
           {
             "key": "service_tier",
@@ -8122,8 +8217,8 @@
     },
     "anthropic:opus-47": {
       "id": "anthropic:opus-47",
-      "version": 3,
-      "updatedAt": 1784964391000,
+      "version": 4,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Opus 4.7",
       "displayNameI18n": {
         "ko": "Claude Opus 4.7"
@@ -8236,6 +8331,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -8344,6 +8463,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -8369,7 +8495,8 @@
       "sourceUrls": [
         "https://platform.claude.com/docs/en/about-claude/models/overview",
         "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
-        "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+        "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+        "https://platform.claude.com/docs/en/build-with-claude/thinking"
       ],
       "limits": {
         "known": true,
@@ -8384,8 +8511,8 @@
     },
     "anthropic:opus-48": {
       "id": "anthropic:opus-48",
-      "version": 2,
-      "updatedAt": 1780842360000,
+      "version": 3,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Opus 4.8",
       "displayNameI18n": {
         "ko": "Claude Opus 4.8"
@@ -8498,6 +8625,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -8606,6 +8757,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -8631,7 +8789,8 @@
       "sourceUrls": [
         "https://platform.claude.com/docs/en/about-claude/models/overview",
         "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
-        "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+        "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+        "https://platform.claude.com/docs/en/build-with-claude/thinking"
       ],
       "limits": {
         "known": true,
@@ -8646,8 +8805,8 @@
     },
     "anthropic:opus-5": {
       "id": "anthropic:opus-5",
-      "version": 1,
-      "updatedAt": 1784964391000,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Opus 5",
       "displayNameI18n": {
         "ko": "Claude Opus 5"
@@ -8760,6 +8919,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -8868,6 +9051,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -8909,8 +9099,8 @@
     },
     "anthropic:opus-55": {
       "id": "anthropic:opus-55",
-      "version": 1,
-      "updatedAt": 1790149202175,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Opus 5.5",
       "displayNameI18n": {
         "ko": "Claude Opus 5.5"
@@ -9027,6 +9217,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -9135,6 +9349,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -9161,7 +9382,8 @@
         "https://platform.claude.com/docs/en/models/opus-5-5/overview",
         "https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5",
         "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "https://platform.claude.com/docs/en/build-with-claude/effort"
+        "https://platform.claude.com/docs/en/build-with-claude/effort",
+        "https://platform.claude.com/docs/en/build-with-claude/thinking"
       ],
       "limits": {
         "known": true,
@@ -10078,8 +10300,8 @@
     },
     "anthropic:sonnet-5": {
       "id": "anthropic:sonnet-5",
-      "version": 1,
-      "updatedAt": 1784964391000,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Sonnet 5",
       "displayNameI18n": {
         "ko": "Claude Sonnet 5"
@@ -10192,6 +10414,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -10300,6 +10546,13 @@
             "order": 2
           },
           {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
+          },
+          {
             "key": "service_tier",
             "widget": "select",
             "visibility": "advanced",
@@ -10341,8 +10594,8 @@
     },
     "anthropic:sonnet-55": {
       "id": "anthropic:sonnet-55",
-      "version": 1,
-      "updatedAt": 1791538923489,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Sonnet 5.5",
       "displayNameI18n": {
         "ko": "Claude Sonnet 5.5"
@@ -10455,6 +10708,30 @@
           }
         },
         {
+          "key": "thinking_display",
+          "type": "string",
+          "label": "Thinking Display",
+          "enum": [
+            {
+              "value": "summarized",
+              "label": "Summarized"
+            },
+            {
+              "value": "omitted",
+              "label": "Omitted"
+            }
+          ],
+          "default": "summarized",
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.display"
+          },
+          "description": "Summarized returns a readable summary of the thinking; Omitted returns thinking blocks with empty text (faster first token, same cost). The API default on this model is Omitted.",
+          "descriptionI18n": {
+            "ko": "Summarized는 thinking 요약 텍스트를 돌려주고, Omitted는 텍스트 없이 빈 thinking 블록만 돌려줍니다(첫 토큰이 빨라지고 비용은 같음). 이 모델의 API 기본값은 Omitted입니다."
+          }
+        },
+        {
           "key": "service_tier",
           "type": "string",
           "label": "Service Tier",
@@ -10561,6 +10838,13 @@
             "visibility": "basic",
             "group": "reasoning",
             "order": 2
+          },
+          {
+            "key": "thinking_display",
+            "widget": "select",
+            "visibility": "advanced",
+            "group": "reasoning",
+            "order": 3
           },
           {
             "key": "service_tier",
@@ -43930,23 +44214,23 @@
     "wellspring": "5587ece284930f761cd40627e8d1d21b3e1850c0a8065111fa9814df626b4dfc"
   },
   "profileHashes": {
-    "anthropic:fable-5": "a7ce6977aaec9dcc34332b1274ea1d30aad7e6cd2c76f8fb614b569245235f76",
-    "anthropic:fable-51": "78756c3350e420116f704c3bf30298986c636db8bb6b989aef5f3c7282fec2b0",
+    "anthropic:fable-5": "733cfc7360718cfa38f1cc9ff2156176016e83b7ef8fc04aa28da49caecd51c6",
+    "anthropic:fable-51": "29a63ae5f389739f46cda43af6a613518cb9b42d156216696602b30ba047d216",
     "anthropic:haiku-45": "235d37e91f1b7ae6cad183946a013d27ef9843d035560ff2f996d21bb0593d65",
-    "anthropic:haiku-55": "29128f3e828d0bcdd56ad323216bfd40deb81f49897c8b80c70301cd3d14afae",
+    "anthropic:haiku-55": "87ee9e3bc5c52208f04029b467aa97e90cd64bb78f9363aa8e6843f9c992aa29",
     "anthropic:opus-4": "82feacbf39d74714820155752987153371f99d6318621a1896440699e4bf329d",
     "anthropic:opus-41": "b0c3086804bcbd2b918d11641caed9f9ac02cbbac1248a46897ead68115a708c",
     "anthropic:opus-45": "f063e4694cb520292008543e8e9289e6d302d9a7aed01c7641a7380c546c7aa7",
     "anthropic:opus-46": "bc365f4691f8437253603d5d899bd8df859e692505449d1c19fa01f13e24e42b",
-    "anthropic:opus-47": "e23472d98d1ca92acd50789deb809dd9e89655027a8d5f589640f7db56758e71",
-    "anthropic:opus-48": "d68949028518b236fab1974c05a079f46514ef951149536f9003c5cefb67082e",
-    "anthropic:opus-5": "dd968dad6d09991f3745e82eebac7efbe6ff6c79a556c67f22cb29c0fdf0f135",
-    "anthropic:opus-55": "cbd1f3079ca1ace252876a6d71bc343a090db3051f0fc8054fdd4cac53dae307",
+    "anthropic:opus-47": "552303b47dfcde7490a66ffc3fd7dd04271dda694d0c8f6e23c5b18fc2bcbaef",
+    "anthropic:opus-48": "932c0578592bc8951eb44588f0f6df1732e4b697755c104532ef8af150401994",
+    "anthropic:opus-5": "1c20200b31d8b5c91e51e252ea1229768288b0d0ae45623992a163243adc39a3",
+    "anthropic:opus-55": "979067e52774e5468a0d39d76207eab877bbb636c832b473b47d94ff93f829a0",
     "anthropic:sonnet-4": "f5cecf916be7c435b754528b370e30b90ce491d8f069b011b7b4037151f2072d",
     "anthropic:sonnet-45": "14d18d63f3aa94f01b888d6c1b2fe3390f909653581e28a1f9505dc8f1d1b449",
     "anthropic:sonnet-46": "619d57b44a4144274c892436461f8de3441ea33b622c1caac9fce7d797bb3c65",
-    "anthropic:sonnet-5": "afccde0f027967581c45b2d138922f8d8bd46e756dee0e9f07ff10ab2d6c6843",
-    "anthropic:sonnet-55": "2d790f0cf6ee96629076a12ba6a5cce2cb808063829b291812a225c42404f980",
+    "anthropic:sonnet-5": "aa0b0eb7416b8db99cce758d778cb41a49c005e4ce65112add34c4a6c00bb8ea",
+    "anthropic:sonnet-55": "effb9aee69ee53088efce66d397a88391f5b49c1daace442f67c68bb2fb90577",
     "anthropic-compatible:custom-noauth": "b93269e1509d175cad1ef8e30132be67a92b1679440157dcba43ba52b0d6dadb",
     "anthropic-compatible:custom": "950ff16e02fd39ac38d1a7636452fe67d36d261193e6f8e1123cc0e962c6ecf7",
     "bedrock:openai-compatible": "e4317519ab87ec59c35173a7d4c242f0753ac9ffaf0ed54aad626cb6bb57fed1",
