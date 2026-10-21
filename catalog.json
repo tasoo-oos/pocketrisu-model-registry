@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "633ba4182f6965ef655fcdbbdaaecf2f74bae7815c8755ac474c347d87c8c34f",
+  "hash": "5352dbc02f895b208b1d605b1c18855519627648d34b385f5e786c88eb4a96d7",
   "baseProviders": {
     "anthropic-compatible": {
       "id": "anthropic-compatible",
@@ -7583,16 +7583,16 @@
     },
     "anthropic:opus-45": {
       "id": "anthropic:opus-45",
-      "version": 1,
-      "updatedAt": 1780592606461,
+      "version": 2,
+      "updatedAt": 1792577393000,
       "displayName": "Claude Opus 4.5",
       "displayNameI18n": {
         "ko": "Claude Opus 4.5"
       },
       "providerBaseId": "anthropic",
-      "description": "Claude Opus 4.5 via the Anthropic Messages API (adaptive thinking).",
+      "description": "Claude Opus 4.5 via the Anthropic Messages API (manual extended thinking).",
       "descriptionI18n": {
-        "ko": "Claude Opus 4.5 (Anthropic Messages API, 적응형 thinking)."
+        "ko": "Claude Opus 4.5 (Anthropic Messages API, 수동 extended thinking)."
       },
       "tags": [
         "anthropic",
@@ -7649,19 +7649,33 @@
           "default": 4096
         },
         {
-          "key": "thinking_type",
+          "key": "extended_thinking",
           "type": "string",
-          "label": "Thinking Mode",
+          "label": "Extended Thinking",
           "enum": [
             {
-              "value": "adaptive",
-              "label": "Adaptive"
+              "value": "enabled",
+              "label": "Enabled"
             }
           ],
-          "default": "adaptive",
           "mapsTo": {
             "target": "body",
             "path": "thinking.type"
+          },
+          "description": "Enable manual extended thinking (Opus 4.5 does not support adaptive thinking). Leave unset to omit the thinking object.",
+          "descriptionI18n": {
+            "ko": "수동 extended thinking을 켭니다(Opus 4.5는 adaptive thinking을 지원하지 않음). 비워두면 thinking 객체를 보내지 않습니다."
+          }
+        },
+        {
+          "key": "thinking_budget_tokens",
+          "type": "integer",
+          "label": "Thinking Budget Tokens",
+          "min": 1024,
+          "max": 64000,
+          "mapsTo": {
+            "target": "body",
+            "path": "thinking.budget_tokens"
           }
         },
         {
@@ -7680,10 +7694,6 @@
             {
               "value": "high",
               "label": "High"
-            },
-            {
-              "value": "max",
-              "label": "Max"
             }
           ],
           "mapsTo": {
@@ -7786,18 +7796,29 @@
             "order": 1
           },
           {
-            "key": "thinking_type",
+            "key": "extended_thinking",
             "widget": "select",
             "visibility": "basic",
             "group": "reasoning",
             "order": 1
           },
           {
+            "key": "thinking_budget_tokens",
+            "widget": "number-input",
+            "visibility": "basic",
+            "group": "reasoning",
+            "order": 2,
+            "showIf": {
+              "key": "extended_thinking",
+              "equals": "enabled"
+            }
+          },
+          {
             "key": "effort",
             "widget": "select",
             "visibility": "basic",
             "group": "reasoning",
-            "order": 2
+            "order": 3
           },
           {
             "key": "service_tier",
@@ -7825,7 +7846,9 @@
       "sourceUrls": [
         "https://platform.claude.com/docs/en/about-claude/models/overview",
         "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
-        "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+        "https://platform.claude.com/docs/en/build-with-claude/thinking",
+        "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+        "https://platform.claude.com/docs/en/build-with-claude/effort"
       ],
       "limits": {
         "known": true,
@@ -43913,7 +43936,7 @@
     "anthropic:haiku-55": "29128f3e828d0bcdd56ad323216bfd40deb81f49897c8b80c70301cd3d14afae",
     "anthropic:opus-4": "82feacbf39d74714820155752987153371f99d6318621a1896440699e4bf329d",
     "anthropic:opus-41": "b0c3086804bcbd2b918d11641caed9f9ac02cbbac1248a46897ead68115a708c",
-    "anthropic:opus-45": "711f77ea23800bdb7a21c3728e02164c75a0e0eea6a0db41fd277152d7a2a791",
+    "anthropic:opus-45": "f063e4694cb520292008543e8e9289e6d302d9a7aed01c7641a7380c546c7aa7",
     "anthropic:opus-46": "bc365f4691f8437253603d5d899bd8df859e692505449d1c19fa01f13e24e42b",
     "anthropic:opus-47": "e23472d98d1ca92acd50789deb809dd9e89655027a8d5f589640f7db56758e71",
     "anthropic:opus-48": "d68949028518b236fab1974c05a079f46514ef951149536f9003c5cefb67082e",

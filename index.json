@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "633ba4182f6965ef655fcdbbdaaecf2f74bae7815c8755ac474c347d87c8c34f",
+  "hash": "5352dbc02f895b208b1d605b1c18855519627648d34b385f5e786c88eb4a96d7",
   "baseProviders": [
     {
       "id": "anthropic-compatible",
@@ -147,7 +147,7 @@
     {
       "id": "anthropic:opus-45",
       "url": "profiles/anthropic/opus-45.json",
-      "hash": "711f77ea23800bdb7a21c3728e02164c75a0e0eea6a0db41fd277152d7a2a791"
+      "hash": "f063e4694cb520292008543e8e9289e6d302d9a7aed01c7641a7380c546c7aa7"
     },
     {
       "id": "anthropic:opus-46",
