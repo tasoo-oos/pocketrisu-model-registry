@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "9d9889705f61e9f66f2d223e79cd56366c3151ad4977f8170052755c4e06cce8",
+  "hash": "b17ec7647d02e9c8e51bfccfc5767e4d57e2a7e3a85aaa1570b44a0d201bb2c9",
   "baseProviders": [
     {
       "id": "anthropic-compatible",
@@ -132,7 +132,7 @@
     {
       "id": "anthropic:haiku-55",
       "url": "profiles/anthropic/haiku-55.json",
-      "hash": "87ee9e3bc5c52208f04029b467aa97e90cd64bb78f9363aa8e6843f9c992aa29"
+      "hash": "92274dc6ca4b882e975d25771eae5af85dee674a53e911b82162351cc37b4adf"
     },
     {
       "id": "anthropic:opus-4",
@@ -197,7 +197,7 @@
     {
       "id": "anthropic:sonnet-55",
       "url": "profiles/anthropic/sonnet-55.json",
-      "hash": "effb9aee69ee53088efce66d397a88391f5b49c1daace442f67c68bb2fb90577"
+      "hash": "4f16b185b93e6bcddc7c37557f98812d6915d419959106eaf3ed47676b103466"
     },
     {
       "id": "anthropic-compatible:custom-noauth",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "hash": "9d9889705f61e9f66f2d223e79cd56366c3151ad4977f8170052755c4e06cce8",
+  "hash": "b17ec7647d02e9c8e51bfccfc5767e4d57e2a7e3a85aaa1570b44a0d201bb2c9",
   "baseProviders": {
     "anthropic-compatible": {
       "id": "anthropic-compatible",
@@ -6900,6 +6900,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -10803,6 +10807,10 @@
             {
               "value": "standard_only",
               "label": "Standard only"
+            },
+            {
+              "value": "batch",
+              "label": "Batch"
             }
           ],
           "mapsTo": {
@@ -44277,7 +44285,7 @@
     "anthropic:fable-5": "5746d743cfeed6ea97b9a13c23d11f7170b66976dc9a665c2d228e9603bb6430",
     "anthropic:fable-51": "31d48ff6da9192ebba99a90fa008753760438728c15a3a04d4e9932b1860d03b",
     "anthropic:haiku-45": "de5625e3bfdfb919a01772dac0d060022cb2d3ae54df20b0c9698d2904b80c77",
-    "anthropic:haiku-55": "87ee9e3bc5c52208f04029b467aa97e90cd64bb78f9363aa8e6843f9c992aa29",
+    "anthropic:haiku-55": "92274dc6ca4b882e975d25771eae5af85dee674a53e911b82162351cc37b4adf",
     "anthropic:opus-4": "8b978f9f2a1269616a098c757da87a5aa488b9982cb26ff3f04c3bcf4fadd5e8",
     "anthropic:opus-41": "38130c906796a068d9018e2c940418e18ddf3bc09495dd187024556499168439",
     "anthropic:opus-45": "fbdffdc0ee5966c6d50246cca726ddee73fd942816e0d75574d2814802d496ce",
@@ -44290,7 +44298,7 @@
     "anthropic:sonnet-45": "f654d16320c37d1886fac0d7614214371f009f7459e2b50814bd07dc898f34d4",
     "anthropic:sonnet-46": "baf37f2541494f7e36be4368313e51252e128d67d7f16819f93e310dd2005910",
     "anthropic:sonnet-5": "ea29cc5c5820cd722bde54c8d6544446cf6842cc5c0d3c1d2d21289ea6c31b52",
-    "anthropic:sonnet-55": "effb9aee69ee53088efce66d397a88391f5b49c1daace442f67c68bb2fb90577",
+    "anthropic:sonnet-55": "4f16b185b93e6bcddc7c37557f98812d6915d419959106eaf3ed47676b103466",
     "anthropic-compatible:custom-noauth": "b93269e1509d175cad1ef8e30132be67a92b1679440157dcba43ba52b0d6dadb",
     "anthropic-compatible:custom": "950ff16e02fd39ac38d1a7636452fe67d36d261193e6f8e1123cc0e962c6ecf7",
     "bedrock:openai-compatible": "e4317519ab87ec59c35173a7d4c242f0753ac9ffaf0ed54aad626cb6bb57fed1",
